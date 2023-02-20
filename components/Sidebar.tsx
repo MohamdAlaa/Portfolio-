@@ -2,9 +2,9 @@ import React ,{ useState} from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook} from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
-// import { useTheme } from "next";
+//  import { useTheme } from "next";
 import Image from "next/image";
-import mohamed from '../pages/img/mohamed.jpg'
+import img from '../public/img/profile.jpg'
 
 // const Sidebar = () => {
 //   const { theme, setTheme } = useTheme();
@@ -17,13 +17,12 @@ import mohamed from '../pages/img/mohamed.jpg'
 const Sidebar = () => {
   return (
     <>
-      <Image
-        src={mohamed}
-        alt="avatar"
-        className="mx-auto border rounded-full "
-        height={128}
-        width={128}
-        layout="intrinsic"
+      <Image 
+      src={img}
+      alt="avatar"
+      className="mx-auto border rounded-full " 
+      height={128}
+       width={128}
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">

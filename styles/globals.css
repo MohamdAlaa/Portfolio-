@@ -2,17 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
- body{
-    background-color: black;
-    font-family: sans-serif;
-} 
-/* .front{
-    padding-top: 0.25rem;
-padding-bottom: 0.25rem; 
-padding-left: 0.5rem;
-padding-right: 0.5rem; 
-margin-top: 0.75rem;
-margin-bottom: 0.75rem; 
-background-color: #E5E7EB; 
-border-radius: 9999px; 
-} */
+
