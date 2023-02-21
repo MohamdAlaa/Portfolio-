@@ -1,7 +1,7 @@
 import {services} from '../data'
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 
-export default function index({services}) {
+export default function index() {
   console.log('client',services);
   
   
@@ -25,15 +25,15 @@ export default function index({services}) {
 //   }
 // }
 
-export const getStaticProps = async (context:GetStaticPropsContext) => {
-  const res = await fetch('http://localhost:3000/api/services');
-  const data = await res.json();
+// export const getStaticProps = async (context:GetStaticPropsContext) => {
+//   const res = await fetch('http://localhost:3000/api/services');
+//   const data = await res.json();
 
-  console.log('SERVER',services)
+//   console.log('SERVER',services)
   
-  return {
-    props: {
-      services: data.services
-    }
-  }
-}
+//   return {
+//     props: {
+//       services: data.services
+//     }
+//   }
+// }
