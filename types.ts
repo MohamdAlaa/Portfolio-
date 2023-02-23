@@ -15,4 +15,13 @@ export interface ISkill {
   name: string;
 }
 
+export interface IProject {
+  name: string;
+  description: string;
+  image_path: string;
+  github_url: string;
+  category: Category[];
+  key_techs: string[];
+}
 
+export type Category = "react" | "next" | "typescript";
