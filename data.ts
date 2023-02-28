@@ -101,95 +101,82 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
   { 
-    name: "COVID Tracker",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    name: "Pizza Resurvation",
+    description:"Pizza resurvation app ",
+    image_path: "/images/pizza.png",
+    github_url: "https://github.com/MohamdAlaa/Pizza-Restaurant",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["React"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+    name: "E-commerce",
+    image_path: "/images/e-commerce.png",
+    github_url: "https://github.com/MohamdAlaa/E-Commerce",
     category: ["react"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+    key_techs: ["React","'styled-components"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
+    name: "Realstate App",
+    image_path: "/images/realstate.png",
+    github_url: "https://github.com/MohamdAlaa/Real-Estate-Project",
     category: ["react"],
     description:
       "Social Media app for developers who can share project,create posts,etc...",
     key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
-    ],
+      "React","styled-components"],
   },
 
+  
   {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+    name: "Cryptocurrency",
+    image_path: "/images/cryptoo.png",
+    github_url: "https://github.com/MohamdAlaa/Cryptocurrency-API",
     category: ["react"],
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    key_techs: ["React", "REST API"],
   },
 
   {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: [ "react"],
+    name: "Simple Next JS App",
+    image_path: "/images/nextninja.png",
+    github_url: "https://github.com/MohamdAlaa/simple-next-js-project",
+    category: [ "react","next"],
     description:
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
+    key_techs: ["React", "Next"],
   },
 
   {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["react"],
+    name: "Quiz App",
+    image_path: "/images/quiz.png",
+    github_url: "https://github.com/MohamdAlaa/Quiz-app",
+    category: ["react","typescript"],
     description:
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+    key_techs: [ "React","Typescript ","styled-components","Trivia API"],
   },
   {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
+    name: "Weather App ",
+    image_path: "/images/weather.png",
     github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["next"],
+    category: ["react"],
     description:
       'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
     key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
+      "React","OpenWeatherMap API","Axios "],
   },
   {
-    name: "Football App",
-    image_path: "/images/football.png",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    name: "Simple Portofolio",
+    image_path: "/images/portifolio.png",
+    github_url: "https://github.com/MohamdAlaa/Portfolio-Website",
     category: ["react"],
     description:
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    key_techs: ["React"],
   },
 ];
 
