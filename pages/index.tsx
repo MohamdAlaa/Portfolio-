@@ -4,18 +4,19 @@ import { IService } from "../types";
 
 export default function index() {  
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1 ">
+  <div className="flex flex-col flex-grow px-6 pt-1 ">
     <h6 className="my-3 text-base font-medium">
-      I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-      Engineering from Academy of Technology. I have 3+ years of experience in
-      Web Development and I have a Youtube Channel where I teach Full Stack
-      Web Development
+    I am Talented and CreativeFront End Developer skilled at designing
+    sites and writing clean code. Work Experience Matched content to
+    customer specifications through skilled design, writing and editing with 3 Years 
+    of Experance in the field of software in general Experience in front end field in particular
+    , always looking forward to gain more experience.
     </h6>
     <div
-      className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
-      style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+      className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "
+      style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" , marginTop: "2rem" }}
     >
-      <h4 className="my-3 text-xl font-semibold tracking-wide">
+      <h4 className="my-3 text-xl font-semibold tracking-wide ">
         What I am doing
       </h4>
 

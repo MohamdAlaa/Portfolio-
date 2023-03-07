@@ -20,8 +20,7 @@ const Sidebar = () => {
       alt="avatar"
       className="mx-auto border rounded-full " 
       height={128}
-       width={128}
-       layout="intrinsic"
+      width={128}
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
@@ -32,8 +31,8 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/assets/Sumit Dey Resume.pdf"
-        download="Sumit Dey Resume.pdf"
+        href="/assets/Front End Developer 3.pdf"
+        download="Front End Developer.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
@@ -41,6 +40,7 @@ const Sidebar = () => {
       </a>
 
       {/* Socials */}
+      
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
         <a href="https://www.facebook.com/mohamed.elmnyawe.7/">
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />

@@ -1,5 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
+import { AiOutlineTeam } from "react-icons/ai";
+import {SiKnowledgebase} from "react-icons/si"
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import {IService , ISkill , IProject} from "./types";
@@ -10,63 +11,73 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b>JavaScript</b>,<b> React Js</b>,<b>Next Js</b> and <b>TypeScript</b> ",
   },
   {
-    Icon: FaServer,
-    title: "Backend  Development",
+    Icon: AiOutlineTeam,
+    title: "Professional team worker",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "I can work with my team in a very professional way and adapt to any circumstances",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I handel API with Backend using <b>Rest API</b> ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "a daily problem solver at problem solving site like <b>Codewars</b>,...  ",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "I can't say I am UI/UX designer completely but I can help the UI Team alot ",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: SiKnowledgebase,
+    title: "Know the ropes, learn the ropes",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "I like to learn, to read a lot, and to be aware of  changes and new tec around me in my field ",
   },
 ];
 
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
+    name: "HTML",
     level: "45",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "CSS",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "JavaScript",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "React Js",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
+    name: "Next Js",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "TypeScript",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Redux",
     level: "80",
   },
   {
@@ -74,27 +85,37 @@ export const languages: ISkill[] = [
     name: "Bootstrap",
     level: "80",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Tailwind CSS",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Material UI",
+    level: "80",
+  },
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
+    name: " RESTful APIs ",
     level: "45",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
+    name: " Git & Github",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
+    name: "Sass",
+    level: "45",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Gulpjs",
     level: "45",
   },
 ];
@@ -102,8 +123,9 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   // pizza
     { 
+      id: 1,
       name: "Pizza Resurvation",
-      description:"Pizza resurvation app ",
+      description:"Pizza resurvation app show what kind of Pizza you want and show the price :)",
       image_path: "/images/pizza.png",
       github_url: "https://github.com/MohamdAlaa/Pizza-Restaurant",
       category: ["react"],
@@ -112,78 +134,85 @@ export const projects: IProject[] = [
    
   // portofolio
     {
+      id: 2,
       name: "Simple Portofolio",
       image_path: "/images/portofolio.png",
       github_url: "https://github.com/MohamdAlaa/Portfolio-Website",
       category: ["react"],
       description:
-        "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+        " First simple portifolio show information about me and my work backthin with a form to Email me :)",
       key_techs: ["React"],
     },
 
   // crypto
     {
+      id: 3,
       name: "Cryptocurrency",
       image_path: "/images/cryptoo.png",
       github_url: "https://github.com/MohamdAlaa/Cryptocurrency-API",
       category: ["react"],
       description:
-        "Basic Realtime Chat App where one can create a room can talk to each other",
-      key_techs: ["React", "REST API"],
+        "Simple Cryptocurrency app with all information you need about each currency price and rate it was first time to deal with api :)",
+      key_techs: ["React", "REST API","Coingecko API"],
     },
 
   // weather
     {
+      id: 4,
       name: "Weather App ",
       image_path: "/images/weather.png",
       github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
       category: ["react"],
       description:
-        'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+        "Weather app show weathet about city which was givin with OpenWeatherMap API :)",
       key_techs: [
         "React","OpenWeatherMap API","Axios "],
     },
   // ninja
     {
+      id: 5,
       name: "Simple Next JS App",
       image_path: "/images/nextninja.png",
       github_url: "https://github.com/MohamdAlaa/simple-next-js-project",
       category: [ "react","next"],
       description:
-        "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+        "First and Simple next js project it was about learning next , routing, api , SSR , SSG :)" ,
       key_techs: ["React", "Next"],
     },
   // quiz
     {
+      id: 6,
       name: "Quiz App",
       image_path: "/images/quiz.png",
       github_url: "https://github.com/MohamdAlaa/Quiz-app",
       category: ["react","typescript"],
       description:
-        "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+        "Quiz app and this time trye to compine React with Typescript and Api at the same time :)",
       key_techs: [ "React","Typescript ","styled-components","Trivia API"],
     },
 
   // real state
     {
+      id: 7,
       name: "Realstate App",
       image_path: "/images/realstate.png",
       github_url: "https://github.com/MohamdAlaa/Real-Estate-Project",
       category: ["react"],
       description:
-        "Social Media app for developers who can share project,create posts,etc...",
+        "Realstate App for puying aVilla or home and also there is form to email me :)",
       key_techs: [
         "React","styled-components"],
     },
-  
-  // e-commerce
+    
+    // e-commerce
     {
+      id: 8,
       name: "E-commerce",
       image_path: "/images/e-commerce.png",
       github_url: "https://github.com/MohamdAlaa/E-Commerce",
       category: ["react"],
       description:
-        "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
+        "An E-commerce app becaue i always want to try how u can deal with shopping card in this kind of apps it was Wonderful experience :)",
       key_techs: ["React","'styled-components"],
     },
 
