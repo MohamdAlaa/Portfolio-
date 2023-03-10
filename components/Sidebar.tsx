@@ -42,13 +42,13 @@ const Sidebar = () => {
       {/* Socials */}
       
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.facebook.com/mohamed.elmnyawe.7/">
+        <a href="https://www.facebook.com/mohamed.elmnyawe.7/" aria-label="facebook">
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/mohamed-alaa-526336204/" >
+        <a href="https://www.linkedin.com/in/mohamed-alaa-526336204/" aria-label="linkedin">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/MohamdAlaa">
+        <a href="https://github.com/MohamdAlaa" aria-label="github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
