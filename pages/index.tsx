@@ -1,10 +1,13 @@
-import {services} from '../data'
-import { IService } from "../types";
- import ServiceCard  from '../components/ServiceCard'
+import {services} from '../data' 
+import ServiceCard  from '../components/ServiceCard'
+import Head from 'next/head'
 
 export default function index() {  
   return (
   <div className="flex flex-col flex-grow px-6 pt-1 ">
+    <Head>
+      <title>Frontend Developer | Portofolio</title>
+    </Head>
     <h6 className="my-3 text-base font-medium">
     I am Talented and CreativeFront End Developer skilled at designing
     sites and writing clean code. Work Experience Matched content to

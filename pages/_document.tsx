@@ -7,6 +7,8 @@ export default function Document() {
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Kaushan+Script&display=swap" rel="stylesheet" />
+      <meta name='description' content='Front End Developer looking for a job'/>
+      <meta name='keywords' content='Front End Developer , Software engineer, React Developer'/>
       </Head>
       <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
