@@ -48,17 +48,17 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "HTML",
-    level: "45",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "CSS",
-    level: "60",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
     name: "JavaScript",
-    level: "80",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
@@ -68,17 +68,17 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Next Js",
-    level: "80",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
     name: "TypeScript",
-    level: "80",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
     name: "Redux",
-    level: "80",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
@@ -101,22 +101,22 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: " RESTful APIs ",
-    level: "45",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
     name: " Git & Github",
-    level: "60",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Sass",
-    level: "45",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
     name: "Gulpjs",
-    level: "45",
+    level: "60",
   },
 ];
 
@@ -183,7 +183,7 @@ export const projects: IProject[] = [
     {
       id: 6,
       name: "Quiz App",
-      image_path: "/images/quiz.png",
+      image_path: "/images/questioncard.png",
       github_url: "https://github.com/MohamdAlaa/Quiz-app",
       category: ["react","typescript"],
       description:
